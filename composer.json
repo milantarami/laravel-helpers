@@ -1,0 +1,23 @@
+{
+    "name": "milantarami/laravel-helpers",
+    "description": "Helper functions for your laravel applications.",
+    "type": "library",
+    "require": {
+        "orchestra/testbench": "^6.9",
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Milan Tarami",
+            "email": "milantarami.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "src/Helpers/laravel-helpers.php",
+            "src/Helpers/vanilla-php-helpers.php"
+        ]
+    }
+}
