@@ -47,7 +47,7 @@ if (!function_exists('create_dir_in_storage_path')) {
      * @param string $dirSeparator = null
      * @return string
      */
-    function dir_exists_in_storage_path($path, $disk = 'public', $dirSeparator = null)
+    function create_dir_in_storage_path($path, $disk = 'public', $dirSeparator = null)
     {
         $filePathArr = explode($dirSeparator ? $dirSeparator : DIRECTORY_SEPARATOR, $path);
         foreach ($filePathArr as $key => $name) {
