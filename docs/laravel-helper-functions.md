@@ -1,4 +1,4 @@
-## Laravel Helper Functions
+#### Laravel Helper Functions
 
 1. [begin_transaction()](/laravel-helper-functions?id=begin_transaction)
 2. [commit_transaction()](/laravel-helper-functions?id=commit_transaction)
