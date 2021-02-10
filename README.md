@@ -1,4 +1,4 @@
-# Laravel Helpers
+# 😎 Laravel Helpers
 
 Laravel Helpers is laravel package which contains list of custom helper functions which may required while developing a projects. You can [install](https://milantarami.github.io/laravel-helpers/#/installation) laravel helpers package to your projects.
 
