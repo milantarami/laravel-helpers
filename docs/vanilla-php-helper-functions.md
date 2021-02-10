@@ -1,0 +1,1 @@
+## vanilla php helper function
