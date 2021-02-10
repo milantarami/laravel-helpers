@@ -2,7 +2,7 @@
   "name": "milantarami/laravel-helpers",
   "description": "Helper functions for your laravel applications.",
   "type": "library",
-  "require": {
+  "require-dev": {
     "orchestra/testbench": "^6.9",
     "phpunit/phpunit": "^9.5"
   },
