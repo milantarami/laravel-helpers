@@ -8,7 +8,7 @@
 
 1. <h5 id="begin_transaction">begin_transaction()</h5>
 
-   > begin a database transaction
+   Begin a database transaction
 
    ```
    /**
@@ -21,24 +21,36 @@
    }
    ```
 
+   > 👌 usage of 👉 **begin_transaction()**
+
+   ```
+    begin_transaction();
+   ```
+
 2. <h5 id="commit_transaction">commit_transaction()</h5>
 
-> commit a database transaction
+   Commit a database transaction
 
-    ```
-    /**
-    * commit a transactions
-    * @return void
-    */
-    function commit_transaction()
-    {
-        \Illuminate\Support\Facades\DB::commit();
-    }
-    ```
+   ```
+   /**
+   * commit a transactions
+   * @return void
+   */
+   function commit_transaction()
+   {
+       \Illuminate\Support\Facades\DB::commit();
+   }
+   ```
+
+   > 👌 usage of 👉 **commit_transaction()**
+
+   ```
+   commit_transaction()
+   ```
 
 3. <h5 id="rollback_transaction">rollback_transaction()</h5>
 
-   > rollback a database transaction
+   Rollback a database transaction
 
    ```
    /**
@@ -49,4 +61,10 @@
    {
        \Illuminate\Support\Facades\DB::rollBack();
    }
+   ```
+
+   > 👌 usage of 👉 **rollback_transaction()**
+
+   ```
+   rollback_transaction()
    ```
