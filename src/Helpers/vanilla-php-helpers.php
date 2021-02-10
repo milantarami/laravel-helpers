@@ -13,22 +13,6 @@ if (!function_exists('file_build_path')) {
 }
 
 
-
-// if (!function_exists('array_map_assoc')) {
-//     /**
-//      * array map associative array
-//      * @param callable $f
-//      * @param array $a
-//      * @return array
-//      *
-//      */
-//     function array_map_assoc(callable $f, array $a)
-//     {
-//         return array_column(array_map($f, array_keys($a), $a), 1, 0);
-//     }
-// }
-
-
 if (!function_exists('current_datetime_string')) {
     /**
      * get current datetime string with milliseconds
