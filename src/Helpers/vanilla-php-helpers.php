@@ -38,7 +38,7 @@ if (!function_exists('generate_filename')) {
      */
     function generate_filename($originalFilename)
     {
-        $filename = urlencode(current_datetime_string()) . '_' . $originalFilename;
+        $filename = date('Y-m-d His') . gettimeofday()['usec'] . '_' . $originalFilename;
         return $filename;
     }
 }
